@@ -15,7 +15,8 @@ build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
   entry_points:
-    - wavyDownload = wavy.apps.standalone.download:main
+    - wavyDownload = wavy.apps.wavyDownload:main
+    - wavyCFG = wavy.apps.wavyCFG:main
 
 requirements:
   host:
