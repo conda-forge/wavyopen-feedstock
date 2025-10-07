@@ -46,6 +46,9 @@ requirements:
     - click
     - scikit-learn >=1.6
     - yapf
+    - aiohttp
+    - fsspec
+    - requests
 
 test:
   imports:
