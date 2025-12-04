@@ -1,5 +1,5 @@
 {% set name = "wavyopen" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 21c08f34528c61c1fb11dcdd494fecd76e4991f5ef104c35a8709d1b28e20413
+  sha256: bfdf8118c4448f101fc51f5873ea6f0e76e87fb4741b265ba8810c71bab391e1
 
 build:
   noarch: python
