@@ -27,7 +27,7 @@ requirements:
     - python >={{ python_min }}
     - matplotlib-base >=3.5
     - numpy >=1.20
-    - scipy >=1.9
+    - scipy <1.17
     - netcdf4 >=1.6
     - pyyaml >=6
     - cmocean >=3
