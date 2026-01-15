@@ -49,6 +49,8 @@ requirements:
     - aiohttp
     - fsspec
     - requests
+    - dill
+    - geopandas
 
 test:
   imports:
